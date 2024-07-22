@@ -1,0 +1,614 @@
+.portfolio{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 0);
+}
+@media screen and (max-width:992px){
+  .navbar-nav a{
+    margin-left: 0!important;
+  }
+  .name{
+    font-size: 45px!important;
+  }
+  .full{
+    font-size: 23px!important;
+  }
+  .perimg{
+    margin-top: 2em;
+  }
+  .project .carousel-item img{
+    height: 200px!important;
+  }
+  .hello{
+    margin-top: 1em!important;
+  }
+}
+.navbar-brand:focus, .navbar-brand:hover{
+  color: rgb(153, 255, 0);
+}
+.yclr{
+  color: rgb(255, 255, 0);
+  padding-top: 0.7em;
+  font-size: 22px;
+}
+.perimg{
+  border-radius: 10%;
+  height: 250px;
+  border: rgb(255, 255, 0) solid 3px;
+  transition: 0.75s;
+  cursor: pointer;
+}
+.perimg:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+.info{
+  font-size: 20px;
+}
+body{
+  background-color: black;
+}
+.color{
+  color: white;
+}
+.hello{
+  margin-top: 7em;
+  font-size: 22px;
+  font-weight: bold;
+}
+.name{
+  color: rgb(153, 255, 0);
+  font-size: 60px;
+  font-weight: bold;
+}
+.deve{
+  font-size: 22px;
+  font-weight: bold;
+}
+.exp{ 
+  margin-top: 0.8em;
+  font-size: 20px;
+}
+.navbar-toggler{
+  background-color: rgb(153, 255, 0);
+}
+.full{
+  color: rgb(255, 255, 0);
+  font-size: 30px;
+}
+.head{
+  color: rgb(153, 255, 0);
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: 50px;
+}
+.abopersonal{
+  color: rgb(153, 255, 0);
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.personal{
+  color: rgb(153, 255, 0);
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.button{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 8em;
+  height: 2.5em;
+  background-color: transparent;
+  border-radius: 2em;
+  color: white;
+  border-color: rgb(153, 255, 0);
+  font-size: 22px;
+  color: rgb(255, 255, 0);
+  font-weight: bold;
+}
+.get{
+  color: rgb(153, 255, 0);
+  /* margin-top: 1em; */
+}
+.i{
+  color: white;
+  font-size: 20px;
+  margin-top: 1.2em;
+}
+.btnS{
+  border-color: rgb(153, 255, 0);
+  color: rgb(255, 255, 0);
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  width: 100%;
+  height: 2.5em;
+  border-radius: 2em;
+  background: transparent;
+}
+.input1{
+  margin-top: 1.2em;
+  font-size: 22px;
+  color: white;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: solid 2px rgb(153, 255, 0);
+  width: 100%;
+}
+.input2{
+  margin-top: 1.2em;
+  font-size: 22px;
+  color: white;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: solid 2px rgb(153, 255, 0);
+  width: 100%;
+}
+.input3{
+  margin-top: 1.2em;
+  width: 100%;
+  font-size: 22px;
+  color: white;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: solid 2px rgb(153, 255, 0);
+}
+.input4{
+  width: 100%;
+  margin-top: 1.2em;
+  font-size: 22px;
+  color: white;
+  border: none;
+  outline: none;
+  resize: none;
+  background-color: transparent;
+  border-bottom: solid 2px rgb(153, 255, 0);
+}
+.map{
+  margin-top: 1em; 
+  margin-bottom: 0.5em;
+  height: 350px;
+}
+.dircon{
+  margin-top: 0.5em;
+  color: rgb(255, 255, 0);
+}
+.soccon{
+  margin-top: 1em;
+  color: rgb(255, 255, 0);
+}
+.addimg{
+  /* margin-top: 2em; */
+  margin-bottom: 0.5em;
+  height: 80px;
+  width: 80px;
+}
+.peradd{
+  color: white;
+  font-size: 20px;
+}
+.conimg{
+  margin-top: 2em;
+  margin-bottom: 1em;
+  height: 60px;
+  width: 60px;
+}
+.percon{
+  color: white;
+  font-size: 20px;
+}
+.maiimg{
+  margin-top: 2em;
+  margin-bottom: 1em;
+  height: 60px;
+  width: 60px;
+}
+.permail{
+  color: white;
+  font-size: 20px;
+}
+.ucan{
+  margin-top: 1.5em;
+  color: white;
+  font-size: 22px;
+}
+.whatsimg{
+  margin-top: 1em;
+  cursor: not-allowed;
+  height: 30px;
+  width: 30px;
+  transition: 0.75s;
+}
+.whatsimg:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+.insimg{
+  margin-top: 1em;
+  margin-left: 0.8em;
+  cursor: not-allowed;
+  height: 30px;
+  width: 30px;
+  transition: 0.75s;
+}
+.insimg:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+.faceimg{
+  margin-top: 1em;
+  margin-left: 0.8em;
+  cursor: not-allowed;
+  height: 30px;
+  width: 30px;
+  transition: 0.75s;
+}
+.faceimg:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+.linkimg{
+  margin-top: 1em;
+  margin-left: 1em;
+  cursor: not-allowed;
+  height: 30px;
+  width: 30px;
+  transition: 0.75s;
+}
+.linkimg:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+.indimg{
+  margin-top: 1em;
+  margin-left: 1em;
+  cursor: not-allowed;
+  height: 22px;
+  width: 22px;
+  transition: 0.75s;
+}
+.indimg:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+.navbg{
+  background-color: black;
+}
+
+
+/*skill Cir Dynamic*/
+
+.skillnum{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'boomi';
+}
+
+.skilloutcir{
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 10px -1px rgb(153, 255, 0),
+              -6px -6px 10px -1px rgb(255, 255, 0);
+  padding: 20px;
+}
+
+.skillinncir{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 4px 4px 6px -1px rgb(255, 255, 0),
+              inset -4px -4px 6px -1px rgb(153, 255, 0),
+              -0.5px -0.5px 0px rgb(255, 255, 0),
+              0.5px 0.5px 0px rgb(153, 255, 0),
+              0px 12px 10px rgb(255, 255, 0);
+}
+
+svg{
+  position: absolute;
+  margin-top: -160px;
+}
+
+@font-face {
+  font-family: 'boomi';
+  src: url(MilkAndHoney.ttf),format(TrueType);
+}
+
+.skillheadings1{
+  font-family: 'boomi';
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-left: 0.5em;
+}
+.skillheadings2{
+  font-family: 'boomi';
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-left: 2em;
+}
+.skillheadings3{
+  font-family: 'boomi';
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-left: 3em;
+}
+.skillheadings4{
+  font-family: 'boomi';
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-left: 2em;
+}
+.skillheadings5{
+  font-family: 'boomi';
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-left: 1.5em;
+}
+.skillheadings6{
+  font-family: 'boomi';
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-left: 2em;
+}
+.skillheadings7{
+  font-family: 'boomi';
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-left: 2em;
+}
+.skillheadings8{
+  font-family: 'boomi';
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-left: 2.5em;
+}
+.skillheadings9{
+  font-family: 'boomi';
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-left: 2.5em;
+}
+
+.circle1{
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim1 3s linear forwards;
+}
+@keyframes anim1 {
+  100%{
+    stroke-dashoffset: 85;
+  }
+}
+
+.circle2{
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim2 3s linear forwards;
+}
+@keyframes anim2 {
+  100%{
+    stroke-dashoffset: 90;
+  }
+}
+
+.circle3{
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim3 3s linear forwards;
+}
+@keyframes anim3 {
+  100%{
+    stroke-dashoffset: 100;
+  }
+}
+
+.circle4{
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim4 3s linear forwards;
+}
+@keyframes anim4 {
+  100%{
+    stroke-dashoffset: 130;
+  }
+}
+
+.circle5{
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim5 3s linear forwards;
+}
+@keyframes anim5 {
+  100%{
+    stroke-dashoffset: 150;
+  }
+}
+
+.circle6{
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim6 3s linear forwards;
+}
+@keyframes anim6 {
+  100%{
+    stroke-dashoffset: 150;
+  }
+}
+
+.circle7{
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim7 3s linear forwards;
+}
+@keyframes anim7 {
+  100%{
+    stroke-dashoffset: 200;
+  }
+}
+
+.circle8{
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim8 3s linear forwards;
+}
+@keyframes anim8 {
+  100%{
+    stroke-dashoffset: 200;
+  }
+}
+
+.circle9{
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim9 3s linear forwards;
+}
+@keyframes anim9 {
+  100%{
+    stroke-dashoffset: 200;
+  }
+}
+
+
+/*Edu Qua Timeline*/
+
+.timeline {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.timeline-event {
+  margin: 20px 0;
+  position: relative;
+  padding-left: 80px;
+}
+.timeline-event:after {
+  border-left: 1px solid rgb(255, 255, 0);
+  bottom: 0;
+  content: "";
+  left: 23px;
+  position: absolute;
+  top: 35px;
+  height: 50px;
+}
+
+.timeline-date {
+  border: solid 2px rgb(255, 255, 0);
+  position: absolute;
+  left: 0;
+  width: 50px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: transparent;
+  color:  white;
+  padding: 5px 0;
+  border-radius: 50%;
+}
+
+.timeline-content {
+  border: solid 2px rgb(255, 255, 0);
+  padding: 20px;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h2 {
+  margin-top: 0;
+}
+
+.timeline-content p {
+  margin: 5px 0 0;
+}
+
+.edcolor{
+  color:rgb(153, 255, 0);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+/* Porfolio Page */
+
+.project .carousel-item img{
+  width: 100%;
+  height: 400px;
+  margin-bottom: 2em;
+}
+
+.formtit{
+  color: black;
+  font-weight: bolder;
+  background : #99ff009e;
+}
+.formcon{
+  color: white;
+  background-color: #00000082;
+}
+
+
