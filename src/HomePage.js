@@ -6,6 +6,7 @@ import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Logo from './logo1.png';
 class HomePage extends Component{
     render(){
         let myStyle=({isActive})=>{
@@ -20,7 +21,7 @@ class HomePage extends Component{
         return<>
             <Navbar expand="lg" sticky="top" className="navbg">
               <div className="container">
-                <Navbar.Brand as={Link} to="/" className="portfolio">Portfolio.</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/" className="portfolio" src={Logo} alt="logo">Portfolio.</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav  className="justify-content-end flex-grow-1 pe-3">

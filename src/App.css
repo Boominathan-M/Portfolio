@@ -4,15 +4,21 @@
   font-weight: bold;
   color: rgb(255, 255, 0);
 }
+.proimg{
+  padding-top: 3em;
+}
 @media screen and (max-width:992px){
   .navbar-nav a{
     margin-left: 0!important;
   }
   .name{
-    font-size: 45px!important;
+    font-size: 35px!important;
   }
   .full{
-    font-size: 23px!important;
+    font-size: 22px!important;
+  }
+  .proimg{
+    margin-top: -1em;
   }
   .perimg{
     margin-top: 2em;
@@ -401,7 +407,7 @@ svg{
   font-weight: bold;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
-  padding-left: 2.5em;
+  padding-left: 1.5em;
 }
 
 .circle1{
@@ -609,6 +615,19 @@ svg{
 .formcon{
   color: white;
   background-color: #00000082;
+}
+
+.deve{
+  color: rgb(153, 255, 0);
+  font-size: 22px;
+}
+.subtit{
+  color: rgb(255, 255, 0);
+  font-size: 22px;
+}
+.tit{
+  color: white;
+  font-size: 20px;
 }
 
 

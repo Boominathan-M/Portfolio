@@ -228,7 +228,29 @@ class About extends Component {
                             <circle className="circle9"  cx="80" cy="80" r="70" stroke-linecap="round" />
                         </svg>
                         <div>
-                            <h1 className="skillheadings9">Mongo</h1>
+                            <h1 className="skillheadings9">Mongo DB</h1>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-3 col-sm-6 col-md-4 col-6">
+                        <div className="skilloutcir">
+                            <div className="skillinncir">
+                                <div className="skillnum">
+                                    <Countup start={0} end={70} duration={3} delay={0}/>%
+                                </div>
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                            <defs>
+                                <linearGradient id="GradientColor">
+                                    <stop offset="0%" stopColor="rgb(255, 255, 0)" />
+                                    <stop offset="100%" stopColor="skyblue" />
+                                </linearGradient>
+                            </defs>
+                            <circle className="circle4"  cx="80" cy="80" r="70" stroke-linecap="round" />
+                        </svg>
+                        <div>
+                            <h1 className="skillheadings4">GitHub</h1>
                         </div>
                     </div>
 
@@ -241,7 +263,7 @@ class About extends Component {
                                     <div className="timeline-content">
                                         <div className="text">
                                             <div className="edcolor">
-                                                <label>Fullstack Developer</label>
+                                                <label>Full Stack Developer || MERN Stack Developer</label>
                                             </div>
                                             <div>
                                                 <label>Xplocode Infotech Private Limitted.</label>

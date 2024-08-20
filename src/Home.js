@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import Resume from './boominathan-resume.pdf';
+import Resume from './Boominathan_CV.pdf';
+import Profileimg from './profimg1.png';
 import {Typewriter,Cursor} from "react-simple-typewriter";
+
 class Home extends Component {
     render() {
         return <>
@@ -25,8 +27,8 @@ class Home extends Component {
                             </a>
                         </div>
                     </div>
-                    <div className="col-lg-6 text-center order-1 order-lg-2">
-                        
+                    <div className="col-lg-6 text-center order-1 order-lg-2 animate__animated animate__fadeInRight">
+                        <img className="proimg img-fluid" src={Profileimg} alt="personal Image 1"/>
                     </div>
                 </div>
             </div>
